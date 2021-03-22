@@ -1,0 +1,24 @@
+{
+  "files": {
+    "static/js/0.js": "/static/js/0.js",
+    "content.css": "/static/css/content.css",
+    "content.js": "/static/js/content.js",
+    "main.css": "/static/css/main.css",
+    "main.js": "/static/js/main.js",
+    "runtime-content.js": "/static/js/runtime-content.js",
+    "runtime-main.js": "/static/js/runtime-main.js",
+    "static/js/5.js": "/static/js/5.js",
+    "static/js/6.js": "/static/js/6.js",
+    "index.html": "/index.html",
+    "static/css/content.css.map": "/static/css/content.css.map",
+    "static/css/main.css.map": "/static/css/main.css.map",
+    "static/js/0.js.LICENSE.txt": "/static/js/0.js.LICENSE.txt",
+    "static/js/5.js.LICENSE.txt": "/static/js/5.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.js",
+    "static/js/0.js",
+    "static/css/main.css",
+    "static/js/main.js"
+  ]
+}

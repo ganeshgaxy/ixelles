@@ -1,0 +1,31 @@
+{
+  "name": "Extension name",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-eSyeb8pyXca1+PGA0qGt4LL9rZWrJ9hY5uLy82KR30c='; object-src 'self'",
+  "background": { "scripts": ["hot-reload.js"] },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "css": [
+        "/static/css/main.css",
+        "/static/css/content.css"
+      ],
+      "js": [
+        "/static/js/0.js",
+        "/static/js/5.js",
+        "/static/js/content.js",
+        "/static/js/main.js",
+        "/static/js/runtime-content.js",
+        "/static/js/runtime-main.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
